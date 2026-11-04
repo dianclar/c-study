@@ -1,10 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
-    int a = 10, b = 20;
-    do
-    {
-    }
-    while (1);
-    
+    printf("%d\n", abs(-5));
 }
