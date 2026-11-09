@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 int main()
 {
-    printf("%d\n", abs(-5));
+    int a[3][3];
+    int (*p)[] = a;
+    printf("%d\n", sizeof(p));
 }
