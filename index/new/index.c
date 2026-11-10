@@ -1,7 +1,6 @@
 #include <stdio.h>
+#define F(x) x + 1
 int main()
 {
-    int a[3][3];
-    int (*p)[] = a;
-    printf("%d\n", sizeof(p));
+    printf("%d\n", (F(2)) * 5);
 }
